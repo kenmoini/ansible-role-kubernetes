@@ -15,7 +15,7 @@
   loop:
     - br_netfilter
     - overlay
-  loop_controls:
+  loop_control:
     loop_var: mod_item
 
 # See: https://kubernetes.io/docs/setup/production-environment/tools/kubeadm/install-kubeadm/#letting-iptables-see-bridged-traffic
